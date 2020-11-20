@@ -1,11 +1,15 @@
 {
   "name": "cli",
   "version": "1.0.0",
-  "description": "",
-  "main": "search-files-cli.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "CLI para procurar arquivos em pasta",
+  "preferGlobal": true,
+  "bin": {
+    "search-files": "./bin/search-files-cli"
   },
-  "author": "",
+  "files": [
+    "./bin"
+  ],
+  "keywords": [],
+  "author": "Joelson Morais",
   "license": "ISC"
 }
